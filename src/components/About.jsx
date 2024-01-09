@@ -31,6 +31,10 @@ const About = () => {
           ))}
         </div>
       </div>
+
+      <div className="bg-[#ebeadf] flex justify-center items-center">
+        <h2 className="font-bold my-8">Meet the best team ever</h2>
+      </div>
     </div>
   );
 };
