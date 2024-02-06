@@ -3,11 +3,11 @@ import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="flex justify-between items-center px-8 py-1">
-        <img src={Logo} alt="Logo" className="w-48" />
+    <div className="w-full bg-black bg-opacity-90 text-white ">
+      <nav className="flex justify-between items-center px-16 py-1">
+        <img src={Logo} alt="Logo" className="w-36" />
         <ul className="flex flex-row justify-between items-center gap-8 text-lg font-semibold">
-          <li>
+          <li className="hover:bg-red-500">
             <a href="/" className="no-underline hover:text-blue">
               Home
             </a>
